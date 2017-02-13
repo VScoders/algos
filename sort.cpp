@@ -44,8 +44,8 @@ int main()
   
  
     
-        result = selectionSort(inputs);
-	cout << result << endl;
+        cout << selectionSort(inputs);
+	
 
        
 
