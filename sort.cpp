@@ -44,7 +44,7 @@ int main()
   
  
     
-        cout << selectionSort(inputs);
+       selectionSort(inputs);
 	
 
        
@@ -69,6 +69,11 @@ int minIndex;
 		}
 
 		swap (Data[i] , Data[minIndex]);
+	}
+
+	for(int x=0; x < Data.size(); x++)
+	{
+		cout << Data[x] << endl;
 	}
 }
 
