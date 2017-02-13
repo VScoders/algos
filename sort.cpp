@@ -12,7 +12,7 @@ using namespace std;
 \param [in] data The data set that will be searched
 \returns location of key if found or -1 if not found
 */
-int linearSearch(auto data, auto key);//prototype
+void selectionSort(auto& Data);//prototype
 
 
 int main()
@@ -56,6 +56,7 @@ int main()
 
 void selectionSort(auto& Data)
 {
+int minIndex;
 	for(int i=0; i < Data.size(); i++)
 	{
 		minIndex = i;
