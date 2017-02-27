@@ -57,7 +57,6 @@ int main()
 void selectionSort(auto& Data)
 {
 int minIndex;
-int j= 19999;
 	for(int i=0; i < Data.size(); i++)
 	{
 		
@@ -72,11 +71,8 @@ int j= 19999;
 
 		swap (Data[i] , Data[minIndex]);
 
-		if(i == j){
+		if(i % 20000 = 0){
 			cout << i << endl;
-			j= j + 20000;
-		}else{
-			continue;
 		}
 		
 	}
